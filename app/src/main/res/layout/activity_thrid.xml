@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<client.com.percentlayout.LinearLayoutPercent xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    tools:context=".ThridActivity">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:background="#ff0000"
+        app:layout_widthPercent="0.5"
+        app:layout_heightPercent="0.3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:background="#00ff00"
+        app:layout_widthPercent="0.5"
+        app:layout_heightPercent="0.3"/>
+</client.com.percentlayout.LinearLayoutPercent>
